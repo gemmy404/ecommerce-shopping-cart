@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is an mini e-commerce website developed using Java Servlets and JSP,
+This project is a mini e-commerce website developed using Java Servlets and JSP,
 with HTML and Bootstrap for the frontend design. The goal of this project is to create
 a platform where users can browse products, add them to a shopping cart, and complete their purchase.
 
