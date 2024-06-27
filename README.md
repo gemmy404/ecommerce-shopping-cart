@@ -39,4 +39,3 @@ a platform where users can browse products, add them to a shopping cart, and com
 - **Browse Products**: Users can browse the list of available products.
 - **Shopping Cart**: Users can add, delete products to their shopping cart.
 - **Checkout**: Users can complete the order through a checkout form.
-
