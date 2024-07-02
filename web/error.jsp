@@ -24,10 +24,12 @@
                     <div class="card-body">
                         <h1 class="display-4 text-danger">Error</h1>
                         <p class="lead">Sorry, we couldn't process your request.</p>
-                        <p>Please try again later or contact support if the problem persists.</p>
+                        
                         <% if (error.equals("login")) { %>
+                        <p>The email or password that you've entered is incorrect.</p>
                         <a href="login.jsp" class="btn btn-primary">Try Again</a>
                         <% } else if (error.equals("register")) { %>
+                        <p>That email is taken. Try another</p>
                         <a href="register.jsp" class="btn btn-primary">Try Again</a>
                         <% } else {response.sendRedirect("index.jsp");} %>
                         <a href="index.jsp" class="btn btn-secondary">Return to Home</a>

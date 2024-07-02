@@ -125,14 +125,16 @@ public final class error_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"card-body\">\n");
       out.write("                        <h1 class=\"display-4 text-danger\">Error</h1>\n");
       out.write("                        <p class=\"lead\">Sorry, we couldn't process your request.</p>\n");
-      out.write("                        <p>Please try again later or contact support if the problem persists.</p>\n");
+      out.write("                        \n");
       out.write("                        ");
  if (error.equals("login")) { 
       out.write("\n");
+      out.write("                        <p>The email or password that you've entered is incorrect.</p>\n");
       out.write("                        <a href=\"login.jsp\" class=\"btn btn-primary\">Try Again</a>\n");
       out.write("                        ");
  } else if (error.equals("register")) { 
       out.write("\n");
+      out.write("                        <p>That email is taken. Try another</p>\n");
       out.write("                        <a href=\"register.jsp\" class=\"btn btn-primary\">Try Again</a>\n");
       out.write("                        ");
  } else {response.sendRedirect("index.jsp");} 
