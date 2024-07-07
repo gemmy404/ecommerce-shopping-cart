@@ -6,9 +6,12 @@ This project is a mini e-commerce website developed using Java Servlets and JSP,
 with HTML and Bootstrap for the frontend design. The goal of this project is to create
 a platform where users can browse products, add them to a shopping cart, and complete their purchase.
 
+<<<<<<< HEAD
 ## Demo Video
 [Watch the project demo](https://drive.google.com/file/d/1YtiuO8Ax8DXmw_ljtWlDy43xsis3RrL2/view)
 
+=======
+>>>>>>> 341d36ffe418e5188bf8f7f42800cd66d157213d
 ## Features
 
 - User registration and login
