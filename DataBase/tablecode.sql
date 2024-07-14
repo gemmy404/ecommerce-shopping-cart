@@ -26,7 +26,9 @@ CREATE TABLE `orders` (
   `u_id` int NOT NULL,
   `o_quantity` int NOT NULL,
   `o_date` varchar(450) NOT NULL,
-  PRIMARY KEY (`o_id`)
+  PRIMARY KEY (`o_id`),
+  FOREIGN KEY (`p_id`) REFERENCES products(`id`),
+  FOREIGN KEY (`u_id`) REFERENCES users(`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 ----------------------------------------------------------------------------------------------------------------------------
